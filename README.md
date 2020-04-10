@@ -1,0 +1,2 @@
+# AnimatedLoadingSpinner
+Animated Loading Spinner
