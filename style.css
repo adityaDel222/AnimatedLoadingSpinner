@@ -27,20 +27,24 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 15px solid transparent;
+    /* border: 15px solid transparent; */
+    background-color: transparent;
     mix-blend-mode: overlay;
 }
 .spinner-sector-blue {
     animation: rotate 2s ease-out infinite;
-    border-top: 15px solid lightblue;
+    /* border-top: 15px solid lightblue; */
+    background-color: lightblue;
 }
 .spinner-sector-red {
     animation: rotate 2.5s ease-in infinite;
-    border-top: 15px solid lightcoral;
+    /* border-top: 15px solid lightcoral; */
+    background-color: lightcoral;
 }
 .spinner-sector-green {
     animation: rotate 1.5s ease-in-out infinite;
-    border-top: 15px solid lightgreen;
+    /* border-top: 15px solid lightgreen; */
+    background-color: lightgreen;
 }
 @keyframes rotate {
     from {transform: rotate(0);}
